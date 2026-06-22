@@ -1,40 +1,19 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2869
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+# Healthcare VC Data Engineering Assignment - Sanaan Akhter
 
-\f0\fs24 \cf0 Healthcare VC Data Engineering Assignment - Sanaan Akhter\
-\
-Files Included:\
-- vcsheet_scraper.py 
-\f1 \uc0\u8594 
-\f0  Synchronous scraper for healthcare VC firms from VCSheet\
-- investorhunt_scraper.py 
-\f1 \uc0\u8594 
-\f0  Async scraper for InvestorHunt healthcare investors\
-- merge_datasets.py 
-\f1 \uc0\u8594 
-\f0  Combines and deduplicates both datasets\
-- vcsheet.csv 
-\f1 \uc0\u8594 
-\f0  VCSheet dataset\
-- investorhunt.csv 
-\f1 \uc0\u8594 
-\f0  InvestorHunt dataset\
-- healthcare_vcs_final.csv 
-\f1 \uc0\u8594 
-\f0  Final merged dataset\
-- writeup.pdf 
-\f1 \uc0\u8594 
-\f0  Explanation of methodology, challenges, and scaling considerations\
-\
-Tools/Libraries Used:\
-- Python\
-- requests\
-- aiohttp\
-- asyncio\
-- BeautifulSoup4\
-- pandas\
-- time}
+## Files Included
+- `vcsheet_scraper.py` → Synchronous scraper for VCSheet VC firms
+- `investorhunt_scraper.py` → Async scraper for InvestorHunt
+- `merge_datasets.py` → Merges + deduplicates datasets
+- `vcsheet.csv` → raw dataset
+- `investorhunt.csv` → raw dataset
+- `healthcare_vcs_final.csv` → final merged dataset
+- `writeup.pdf` → methodology + scaling notes
+
+## Tools Used
+- Python
+- requests
+- aiohttp
+- asyncio
+- BeautifulSoup4
+- pandas
+
